@@ -1,0 +1,47 @@
+name: dockeys
+description: "DocKeys – Government Scheme Advisor & Document Tracker"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+
+  # State Management
+  provider: ^6.1.2
+
+  # Routing
+  go_router: ^14.2.0
+
+  # Secure storage for login sessions
+  flutter_secure_storage: ^9.2.2
+
+  # Local storage for profile persistence
+  shared_preferences: ^2.2.2
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # URL launcher for Apply links
+  url_launcher: ^6.2.5
+
+  # File picking and local storage
+  file_picker: ^8.1.6
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
